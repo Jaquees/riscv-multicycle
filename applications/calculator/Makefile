@@ -1,4 +1,4 @@
-RISCV_TOOLS_PREFIX = C:/riscv/xpack-riscv-none-embed-gcc-10.2.0-1.2/bin/riscv-none-embed-
+RISCV_TOOLS_PREFIX = ../../compiler/gcc/bin/riscv-none-elf-
 
 CC = $(RISCV_TOOLS_PREFIX)gcc -march=rv32im -O1 -fpack-struct -I ../../software/
 AS = $(RISCV_TOOLS_PREFIX)gcc -march=rv32im
